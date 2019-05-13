@@ -1,0 +1,127 @@
+@import url(sanitize.css);
+/*@import url(../css_file/sanitize.css)*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+    background-color:#C0C0C0;
+    font-size:14px;
+    font-family:sans-serif;
+    padding:10px;
+    color:black;
+}
+
+.container{
+    max-width:800px;
+    margin:0 auto;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+header{
+    padding:5px;
+    background-color:#DDDDDD;
+}
+
+h1{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+img{
+    float:left;
+    height:150px;
+    width:150px;
+}
+
+.content{
+    padding:10px;
+}
+ 
+
+ol{
+    padding:0;
+    margin:0;
+    list-style:decimal inside;
+    list-style-type:disc;
+}
+
+.menu li{
+    /*border-bottom: 1px solid rgb(26, 25, 25);*/
+    width:50%;
+    float:left;
+    padding:4px 5px;
+    margin-bottom:2px;
+}
+
+.clearfix::after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.form title{
+    font-size:24px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+.form{
+    background-color:#fff;
+    width:500px;
+    margin:10px auto;
+    padding:5px 0;
+    /*border:1px solid #d1d1d1;*/
+    font-family: 'Lora', serif;
+}
+
+input{
+     border-bottom:1px solid #d1d1d1;
+     width:80%;
+     font-size:1.2em;
+     padding:8px;
+}
+
+button{
+    width:50%;
+    background-color:#2096f3;
+    color:#fff;
+    border:0;
+    padding:15px;
+    border-radius:3px;
+    box-shadow:0 0 8px rgba(0,0,0,.4);
+    
+}
+
+.control{
+    margin-bottom:3em;
+    text-align: center;
+}
+
+label{
+    display:block;
+    margin-bottom:.5em;
+}
+
+.required{
+    color:#f33;
+    font-size:.9em;
+    background-color:#fee;
+    padding:3px;
+    font-weight:bold;
+    margin-right:.3em;
+}
+
+button:hover{
+    opacity:.5;
+}
+
+a{
+    color:blue;
+    font-family: 'Lora', serif;
+   }
+   
+   a:hover{
+       color:red;
+       
+   }

@@ -1,0 +1,96 @@
+@import url(sanitize.css);
+/*@import url(../css_file/sanitize.css)*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+    background-color:#C0C0C0;
+    font-size:14px;
+    font-family:sans-serif;
+    padding:10px;
+    color:black;
+}
+
+.container{
+    max-width:800px;
+    margin:0 auto;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+header{
+    padding:5px;
+    background-color:#DDDDDD;
+}
+
+h1{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+ol{
+    padding:0;
+    margin:0;
+    list-style:decimal inside;
+    list-style-type:disc;
+}
+
+.menu li{
+    /*border-bottom: 1px solid rgb(26, 25, 25);*/
+    width:50%;
+    float:left;
+    padding:5px 5px;
+    margin-top:3px;
+}
+
+.clearfix::after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+img{
+    float:left;
+    height:150px;
+    width:150px;
+   
+}
+h2{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+.pictures{
+    height:160px;
+    display:inline-block;
+    margin-left:10px;
+}
+
+.teacher1{
+    margin-left:160px;
+}
+
+.teacher2{
+    margin-left:150px;
+}
+
+p{
+    font-family: 'Lora', serif;
+    font-size:15px;
+    
+}
+
+footer{
+    text-align:center;
+    font-size:80%;
+    font-family: 'Lora', serif;
+    padding-bottom:5px;
+}
+
+a{
+    color:blue;
+    font-family: 'Lora', serif;
+   }
+   
+   a:hover{
+       color:red;
+       
+   }

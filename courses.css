@@ -1,0 +1,123 @@
+@import url(sanitize.css);
+/*@import url(../css_file/sanitize.css)*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+    background-color:#C0C0C0;
+    font-size:14px;
+    font-family:sans-serif;
+    padding:10px;
+    color:black;
+}
+
+.container{
+    max-width:800px;
+    margin:0 auto;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+header{
+    padding:5px;
+    background-color:#DDDDDD;
+}
+
+h1{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+ol{
+    padding:0;
+    margin:0;
+    list-style:decimal inside;
+    list-style-type:disc;
+}
+
+.menu li{
+    /*border-bottom: 1px solid rgb(26, 25, 25);*/
+    width:50%;
+    float:left;
+    padding:5px 5px;
+    margin-top:3px;
+}
+
+.clearfix::after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+img{
+    float:left;
+    height:150px;
+    width:150px;
+}
+
+.courses{
+    height:330px;
+    width:800px;
+}
+
+.courses::after{
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+
+h2{
+    text-align:center;
+    font-family: 'Lora', serif;
+}
+
+nav{
+    text-align: center;
+    }
+
+nav ul{
+    margin: 10px ;
+    padding: 0 ;
+    }
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width:100px;
+    min-width: 90px;
+    margin-left:10px;
+    margin-bottom:10px;
+    }
+
+nav ul li a{
+    /*text-decoration: none;*/
+    color: #333;
+    }
+
+nav ul li a:hover{
+    color: #E7DA66;
+    }
+
+    p{
+        text-align:center;
+        font-size:18px;
+        margin-top:20px;
+        margin-bottom:0;
+        font-family: 'Lora', serif;  
+    }
+
+footer{
+    text-align:center;
+    font-size:80%;
+    font-family: 'Lora', serif;
+    padding-bottom:5px;
+}
+
+a{
+    color:blue;
+    font-family: 'Lora', serif;
+   }
+   
+   a:hover{
+       color:red;
+       
+   }
