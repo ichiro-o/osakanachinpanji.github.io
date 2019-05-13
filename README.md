@@ -1,1 +1,0 @@
-# osakanachinpanji.github.io
